@@ -35,7 +35,7 @@
                     <p class="blue"><i class="fa-solid fa-phone-volume"></i> +8801792221349</p>
                     <hr/>
                     <p class="pt-2 pb-3">
-                        Alternatively, you can leave us your contact details, and we will reach out to you as soon as possible to answer any queries you might have.
+                        Alternatively, you can leave us your contact details.
                     </p>
                     <a href="#form-area" class="btn btn-primary btn-lg btn-blue pt-3"> <i class="fa-solid fa-phone-flip"></i> Help Us Contact You</a>
                 </div>
