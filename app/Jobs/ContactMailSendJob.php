@@ -30,6 +30,9 @@ class ContactMailSendJob implements ShouldQueue
      */
     public function handle(): void
     {
-        Mail::to('information.scss@gmail.com')->send(new ContactMail($this->payload));
+        Mail::to('information.scss@gmail.com')
+        ->cc('farhan.sikder.scss@gmail.com')
+        ->bcc('mdshajib1@gmail.com')
+        ->send(new ContactMail($this->payload));
     }
 }
