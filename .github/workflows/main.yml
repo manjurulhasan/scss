@@ -18,7 +18,7 @@ jobs:
           host: ${{ secrets.SCSS_HOST }}
           username: ${{ secrets.SCSS_USER }}
           port: ${{ secrets.SCSS_PORT }}
-          password: ${{ secrets.SCSS_PASS }}
+          password: ${{ secrets.SCSS_PASSWORD }}
           source: "."
           target: "/var/www/html"
 
@@ -28,7 +28,7 @@ jobs:
           host: ${{ secrets.SCSS_HOST }}
           username: ${{ secrets.SCSS_USER }}
           port: ${{ secrets.SCSS_PORT }}
-          password: ${{ secrets.SCSS_PASS }}
+          password: ${{ secrets.SCSS_PASSWORD }}
           script: |
             # cd /var/www/html
             cd /var/www/html
